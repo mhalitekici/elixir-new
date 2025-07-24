@@ -1,0 +1,183 @@
+/* 🔹 GENEL AYARLAR */
+body {
+  margin: 0;
+  min-height: 100vh; /* sayfa yüksekliği */
+  background: url('../images/arkacık.png') center center / cover no-repeat fixed;
+  font-family: 'Times New Roman', serif;
+  color: #000;
+}
+
+/* 🔹 ÜST KISIM */
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+/* 🔹 GERİ DÖN LİNKİ */
+.back-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+.back-link:hover {
+  color: #444;
+}
+
+/* 🔹 ANA SAYFA MENÜ KARTLARI */
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.menu-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 250px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.menu-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+/* Her kart için farklı resim */
+.food-card     { background-image: url('../images/foodsssmus.jpg'); }
+.drinks-card   { background-image: url('../images/drinksmissss.jpg'); }
+.cocktails-card{ background-image: url('../images/kokteylmisss.jpg'); }
+.frozen-card   { background-image: url('../images/forzenmis.jpg'); }
+
+/* 🔹 MENÜ BÖLÜMLERİ */
+.menu-section {
+  background: rgba(255,255,255,0.9);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #000;
+}
+.menu-section h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.3rem;
+}
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px dotted #000;
+  padding: 0.8rem 0;
+  flex-wrap: wrap;
+}
+.menu-section li:last-child {
+  border-bottom: none;
+}
+.menu-section li .desc {
+  width: 100%;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+.price {
+  font-weight: bold;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* Bölümlere özel arka plan (opsiyonel) */
+.starters-section { background-image: url('../images/g'); }
+.burgers-section  { background-image: url('../images/burgers-bg.jpg'); }
+.pizzas-section   { background-image: url('../images/pizzas-bg.jpg'); }
+
+/* 🔹 FOOTER */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+/* 🔹 DİL SEÇİMİ DROPDOWN */
+#languageSelect {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px 40px 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  background-image: url('../images/arrow-down.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  cursor: pointer;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+#languageSelect:hover {
+  border-color: #999;
+}
+#languageSelect:focus {
+  outline: none;
+  border-color: #666;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* 🔹 RESPONSIVE (MOBİL) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  .menu-card {
+    width: 80%;
+    height: 120px;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  .menu-section {
+    margin: 0.5rem;
+    padding: 0.8rem;
+  }
+  .menu-section h2 {
+    font-size: 1.2rem;
+  }
+}
