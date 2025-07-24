@@ -6,11 +6,11 @@ if (select) {
   select.addEventListener('change', () => {
     const lang = select.value;
     if (lang === 'en') {
-      window.location.href = 'index.html';
+      window.location.href = 'index.html';      // İngilizce
     } else if (lang === 'tr') {
-      window.location.href = '/indextr.html';
+      window.location.href = 'indextr.html';    // Türkçe
     } else if (lang === 'ru') {
-      window.location.href = '/indexru.html';
+      window.location.href = 'indexru.html';    // Rusça
     }
   });
 }
