@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deniz Ürünleri - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodstr.html" class="back-link">← Yemek Kategorilerine Geri Dön</a>
+    <h1>Deniz Ürünleri</h1>
+    <select id="languageSelect">
+      <option value="seafoods.html">English</option>
+      <option value="seafoodstr.html" selected>Türkçe</option>
+      <option value="seafoodsru.html">Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Deniz Ürünlerimiz</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/trout.jpg" data-desc="Taze otlarla kızartılmış alabalık.">
+          <img src="images/menu/trout.jpg" alt="Alabalık">
+          <p>Kızarmış Alabalık – 790₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/jumbo-shrimp.jpg" data-desc="Tereyağında ızgara jumbo karides.">
+          <img src="images/menu/jumbo-shrimp.jpg" alt="Jumbo Karides">
+          <p>Izgara Jumbo Karides – 1690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/calamari.jpg" data-desc="Altın rengi çıtır kalamar.">
+          <img src="images/menu/calamari.jpg" alt="Kalamar">
+          <p>Kızarmış Kalamar – 1090₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/seabass.jpg" data-desc="Izgara levrek veya çipura.">
+          <img src="images/menu/seabass.jpg" alt="Levrek/Çipura">
+          <p>Izgara Levrek/Çipura – 990₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

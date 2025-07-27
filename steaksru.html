@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стейки - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Вернуться к категориям еды</a>
+    <h1>Стейки</h1>
+    <select id="languageSelect">
+      <option value="steaks.html">English</option>
+      <option value="steakstr.html">Türkçe</option>
+      <option value="steaksru.html" selected>Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Наши стейки</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/mushroom-steak.jpg" data-desc="Стейк с грибным соусом.">
+          <img src="images/menu/mushroom-steak.jpg" alt="Стейк с грибным соусом">
+          <p>Стейк с грибным соусом – 1390₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/pepper-steak.jpg" data-desc="Стейк с перечным соусом.">
+          <img src="images/menu/pepper-steak.jpg" alt="Стейк с перечным соусом">
+          <p>Стейк с перечным соусом – 1390₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/surf-turf.jpg" data-desc="Стейк с креветками.">
+          <img src="images/menu/surf-turf.jpg" alt="Сёрф & Тёрф">
+          <p>Сёрф & Тёрф – 1790₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

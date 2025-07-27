@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandwiches - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foods.html" class="back-link">← Back to Food Categories</a>
+    <h1>Sandwiches</h1>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Our Sandwiches</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/cheese-sandwich.jpg" data-desc="Fresh bread with white or cheddar cheese.">
+          <img src="images/menu/cheese-sandwich.jpg" alt="Cheese Sandwich">
+          <p>Cheese Sandwich – 470₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/ham-cheese-sandwich.jpg" data-desc="Bread with beef or chicken ham and cheese.">
+          <img src="images/menu/ham-cheese-sandwich.jpg" alt="Ham & Cheese Sandwich">
+          <p>Ham & Cheese Sandwich – 480₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/tuna-sandwich.jpg" data-desc="Tuna, mayo, and fresh herbs.">
+          <img src="images/menu/tuna-sandwich.jpg" alt="Tuna Sandwich">
+          <p>Tuna & Mayo Sandwich – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/shrimp-sandwich.jpg" data-desc="Shrimp and mushroom with mayo.">
+          <img src="images/menu/shrimp-sandwich.jpg" alt="Shrimp Sandwich">
+          <p>Shrimp & Mushroom Sandwich – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/club-sandwich.jpg" data-desc="Triple layered club sandwich.">
+          <img src="images/menu/club-sandwich.jpg" alt="Club Sandwich">
+          <p>Club Sandwich – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/hot-chicken-sandwich.jpg" data-desc="Grilled chicken in bread.">
+          <img src="images/menu/hot-chicken-sandwich.jpg" alt="Hot Chicken Sandwich">
+          <p>Hot Chicken Sandwich – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/hot-beef-sandwich.jpg" data-desc="Grilled beef in bread.">
+          <img src="images/menu/hot-beef-sandwich.jpg" alt="Hot Beef Sandwich">
+          <p>Hot Beef Sandwich – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chicken-nuggets.jpg" data-desc="Golden crispy chicken nuggets.">
+          <img src="images/menu/chicken-nuggets.jpg" alt="Chicken Nuggets">
+          <p>Chicken Nuggets – 590₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" src="" alt="" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Elixir Hotel © 2010</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

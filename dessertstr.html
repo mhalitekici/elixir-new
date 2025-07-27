@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tatlılar - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodstr.html" class="back-link">← Yemek Kategorilerine Geri Dön</a>
+    <h1>Tatlılar</h1>
+    <select id="languageSelect">
+      <option value="desserts.html">English</option>
+      <option value="dessertstr.html" selected>Türkçe</option>
+      <option value="dessertsru.html">Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Tatlılarımız</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/mixed-fruit.jpg" data-desc="Mevsim meyvelerinden oluşan karışık tabak.">
+          <img src="images/menu/mixed-fruit.jpg" alt="Karışık Meyve Tabağı">
+          <p>Karışık Meyve Tabağı – 420₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/baklava-icecream.jpg" data-desc="Kaymaklı dondurmayla servis edilen baklava.">
+          <img src="images/menu/baklava-icecream.jpg" alt="Baklava Dondurma">
+          <p>Baklava Dondurma ile – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/yogurt-honey.jpg" data-desc="Bal ile servis edilen yoğurt.">
+          <img src="images/menu/yogurt-honey.jpg" alt="Yoğurt Bal">
+          <p>Yoğurt Bal ile – 390₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/rice-pudding.jpg" data-desc="Geleneksel fırın sütlaç.">
+          <img src="images/menu/rice-pudding.jpg" alt="Sütlaç">
+          <p>Sütlaç – 420₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chocolate-crepe.jpg" data-desc="Çikolata soslu krep.">
+          <img src="images/menu/chocolate-crepe.jpg" alt="Çikolatalı Krep">
+          <p>Çikolatalı Krep – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/lemon-crepe.jpg" data-desc="Limon soslu krep.">
+          <img src="images/menu/lemon-crepe.jpg" alt="Limonlu Krep">
+          <p>Limonlu Krep – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/fruit-crepe.jpg" data-desc="Meyvelerle süslenmiş krep.">
+          <img src="images/menu/fruit-crepe.jpg" alt="Meyveli Krep">
+          <p>Meyveli Krep – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/tiramisu.jpg" data-desc="Klasik İtalyan tiramisu.">
+          <img src="images/menu/tiramisu.jpg" alt="Tiramisu">
+          <p>Tiramisu – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/icecream.jpg" data-desc="Mevsimlik dondurma.">
+          <img src="images/menu/icecream.jpg" alt="Dondurma">
+          <p>Dondurma – 320₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/waffle-icecream.jpg" data-desc="Dondurmalı waffle.">
+          <img src="images/menu/waffle-icecream.jpg" alt="Waffle Dondurma">
+          <p>Dondurmalı Waffle – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/cheesecake-icecream.jpg" data-desc="Dondurmalı cheesecake.">
+          <img src="images/menu/cheesecake-icecream.jpg" alt="Cheesecake Dondurma">
+          <p>Dondurmalı Cheesecake – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/brownie-icecream.jpg" data-desc="Dondurmalı brownie.">
+          <img src="images/menu/brownie-icecream.jpg" alt="Brownie Dondurma">
+          <p>Dondurmalı Brownie – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/fruit-bowl.jpg" data-desc="Taze meyve kasesi.">
+          <img src="images/menu/fruit-bowl.jpg" alt="Meyve Kasesi">
+          <p>Meyve Kasesi – 390₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

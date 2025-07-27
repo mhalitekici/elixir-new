@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бутерброды - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Вернуться к категориям еды</a>
+    <h1>Бутерброды</h1>
+    <select id="languageSelect">
+      <option value="sandwiches.html">English</option>
+      <option value="sandwichestr.html">Türkçe</option>
+      <option value="sandwichesru.html" selected>Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Наши бутерброды</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/cheese-sandwich.jpg" data-desc="Свежий хлеб с белым сыром или сулугуни.">
+          <img src="images/menu/cheese-sandwich.jpg" alt="Сэндвич с сыром">
+          <p>Сэндвич с сыром – 470₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/ham-cheese-sandwich.jpg" data-desc="Ветчина из говядины или курицы и сыр.">
+          <img src="images/menu/ham-cheese-sandwich.jpg" alt="Сэндвич с ветчиной и сыром">
+          <p>Сэндвич с ветчиной и сыром – 480₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/tuna-sandwich.jpg" data-desc="Тунец с майонезом и зеленью.">
+          <img src="images/menu/tuna-sandwich.jpg" alt="Сэндвич с тунцом">
+          <p>Сэндвич с тунцом – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/shrimp-sandwich.jpg" data-desc="Креветки и грибы с майонезом.">
+          <img src="images/menu/shrimp-sandwich.jpg" alt="Сэндвич с креветками">
+          <p>Сэндвич с креветками – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/club-sandwich.jpg" data-desc="Трёхслойный клубный сэндвич.">
+          <img src="images/menu/club-sandwich.jpg" alt="Клубный сэндвич">
+          <p>Клубный сэндвич – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/hot-chicken-sandwich.jpg" data-desc="Горячий сэндвич с курицей на гриле.">
+          <img src="images/menu/hot-chicken-sandwich.jpg" alt="Сэндвич с курицей">
+          <p>Сэндвич с курицей – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/hot-beef-sandwich.jpg" data-desc="Горячий сэндвич с говядиной.">
+          <img src="images/menu/hot-beef-sandwich.jpg" alt="Сэндвич с говядиной">
+          <p>Сэндвич с говядиной – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chicken-nuggets.jpg" data-desc="Куриные наггетсы.">
+          <img src="images/menu/chicken-nuggets.jpg" alt="Наггетсы">
+          <p>Наггетсы – 590₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

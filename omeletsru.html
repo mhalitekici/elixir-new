@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Омлеты - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Вернуться к категориям еды</a>
+    <h1>Омлеты</h1>
+    <select id="languageSelect">
+      <option value="omelets.html">English</option>
+      <option value="omletstr.html">Türkçe</option>
+      <option value="omeletsru.html" selected>Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Наши омлеты</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/plain-omelet.jpg" data-desc="Классический омлет без добавок.">
+          <img src="images/menu/plain-omelet.jpg" alt="Простой омлет">
+          <p>Простой омлет – 450₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/cheese-omelet.jpg" data-desc="Омлет с расплавленным сыром.">
+          <img src="images/menu/cheese-omelet.jpg" alt="Омлет с сыром">
+          <p>Омлет с сыром – 460₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/potato-omelet.jpg" data-desc="Омлет с картофелем.">
+          <img src="images/menu/potato-omelet.jpg" alt="Омлет с картофелем">
+          <p>Омлет с картофелем – 480₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spinach-omelet.jpg" data-desc="Омлет со свежим шпинатом.">
+          <img src="images/menu/spinach-omelet.jpg" alt="Омлет со шпинатом">
+          <p>Омлет со шпинатом – 450₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/mushroom-omelet.jpg" data-desc="Омлет с грибами.">
+          <img src="images/menu/mushroom-omelet.jpg" alt="Омлет с грибами">
+          <p>Омлет с грибами – 480₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spanish-omelet.jpg" data-desc="Испанский омлет с овощами.">
+          <img src="images/menu/spanish-omelet.jpg" alt="Испанский омлет">
+          <p>Испанский омлет – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/menemen.jpg" data-desc="Турецкий менемен с помидорами и перцем.">
+          <img src="images/menu/menemen.jpg" alt="Менемен">
+          <p>Менемен – 490₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

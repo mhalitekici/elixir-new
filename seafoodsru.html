@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Морепродукты - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Вернуться к категориям еды</a>
+    <h1>Морепродукты</h1>
+    <select id="languageSelect">
+      <option value="seafoods.html">English</option>
+      <option value="seafoodstr.html">Türkçe</option>
+      <option value="seafoodsru.html" selected>Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Наши морепродукты</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/trout.jpg" data-desc="Жареная форель со свежими травами.">
+          <img src="images/menu/trout.jpg" alt="Форель">
+          <p>Жареная форель – 790₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/jumbo-shrimp.jpg" data-desc="Креветки гриль с маслом.">
+          <img src="images/menu/jumbo-shrimp.jpg" alt="Креветки">
+          <p>Креветки гриль – 1690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/calamari.jpg" data-desc="Хрустящие жареные кальмары.">
+          <img src="images/menu/calamari.jpg" alt="Кальмары">
+          <p>Жареные кальмары – 1090₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/seabass.jpg" data-desc="Лаврак или дорада на гриле.">
+          <img src="images/menu/seabass.jpg" alt="Лаврак/Дорада">
+          <p>Лаврак/Дорада гриль – 990₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

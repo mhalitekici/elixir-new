@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omelets - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foods.html" class="back-link">← Back to Food Categories</a>
+    <h1>Omelets</h1>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Our Omelets</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/plain-omelet.jpg" data-desc="Perfectly cooked plain omelet.">
+          <img src="images/menu/plain-omelet.jpg" alt="Plain Omelet">
+          <p>Plain Omelet – 450₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/cheese-omelet.jpg" data-desc="Omelet with melted cheese inside.">
+          <img src="images/menu/cheese-omelet.jpg" alt="Cheese Omelet">
+          <p>Cheese Omelet – 460₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/potato-omelet.jpg" data-desc="Omelet mixed with diced potatoes.">
+          <img src="images/menu/potato-omelet.jpg" alt="Potato Omelet">
+          <p>Potato Omelet – 480₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spinach-omelet.jpg" data-desc="Fresh spinach omelet.">
+          <img src="images/menu/spinach-omelet.jpg" alt="Spinach Omelet">
+          <p>Spinach Omelet – 450₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/mushroom-omelet.jpg" data-desc="Soft omelet with fresh mushrooms.">
+          <img src="images/menu/mushroom-omelet.jpg" alt="Mushroom Omelet">
+          <p>Mushroom Omelet – 480₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spanish-omelet.jpg" data-desc="Traditional Spanish omelet with vegetables.">
+          <img src="images/menu/spanish-omelet.jpg" alt="Spanish Omelet">
+          <p>Spanish Omelet – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/menemen.jpg" data-desc="Turkish style scrambled eggs with tomatoes and peppers.">
+          <img src="images/menu/menemen.jpg" alt="Menemen">
+          <p>Menemen – 490₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" src="" alt="" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Elixir Hotel © 2010</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

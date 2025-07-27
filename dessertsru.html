@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Десерты - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Вернуться к категориям еды</a>
+    <h1>Десерты</h1>
+    <select id="languageSelect">
+      <option value="desserts.html">English</option>
+      <option value="dessertstr.html">Türkçe</option>
+      <option value="dessertsru.html" selected>Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Наши десерты</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/mixed-fruit.jpg" data-desc="Тарелка сезонных фруктов.">
+          <img src="images/menu/mixed-fruit.jpg" alt="Фрукты">
+          <p>Тарелка фруктов – 420₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/baklava-icecream.jpg" data-desc="Баклава с мороженым.">
+          <img src="images/menu/baklava-icecream.jpg" alt="Баклава с мороженым">
+          <p>Баклава с мороженым – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/yogurt-honey.jpg" data-desc="Йогурт с мёдом.">
+          <img src="images/menu/yogurt-honey.jpg" alt="Йогурт с мёдом">
+          <p>Йогурт с мёдом – 390₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/rice-pudding.jpg" data-desc="Традиционный рисовый пудинг.">
+          <img src="images/menu/rice-pudding.jpg" alt="Сютлач">
+          <p>Сютлач – 420₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chocolate-crepe.jpg" data-desc="Блинчик с шоколадным соусом.">
+          <img src="images/menu/chocolate-crepe.jpg" alt="Шоколадный блин">
+          <p>Шоколадный блин – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/lemon-crepe.jpg" data-desc="Блинчик с лимонным соусом.">
+          <img src="images/menu/lemon-crepe.jpg" alt="Лимонный блин">
+          <p>Лимонный блин – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/fruit-crepe.jpg" data-desc="Блинчик с фруктами.">
+          <img src="images/menu/fruit-crepe.jpg" alt="Фруктовый блин">
+          <p>Фруктовый блин – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/tiramisu.jpg" data-desc="Классический тирамису.">
+          <img src="images/menu/tiramisu.jpg" alt="Тирамису">
+          <p>Тирамису – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/icecream.jpg" data-desc="Сезонное мороженое.">
+          <img src="images/menu/icecream.jpg" alt="Мороженое">
+          <p>Мороженое – 320₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/waffle-icecream.jpg" data-desc="Вафля с мороженым.">
+          <img src="images/menu/waffle-icecream.jpg" alt="Вафля с мороженым">
+          <p>Вафля с мороженым – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/cheesecake-icecream.jpg" data-desc="Чизкейк с мороженым.">
+          <img src="images/menu/cheesecake-icecream.jpg" alt="Чизкейк с мороженым">
+          <p>Чизкейк с мороженым – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/brownie-icecream.jpg" data-desc="Брауни с мороженым.">
+          <img src="images/menu/brownie-icecream.jpg" alt="Брауни с мороженым">
+          <p>Брауни с мороженым – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/fruit-bowl.jpg" data-desc="Миска свежих фруктов.">
+          <img src="images/menu/fruit-bowl.jpg" alt="Миска фруктов">
+          <p>Миска фруктов – 390₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

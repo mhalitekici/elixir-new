@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burgers - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foods.html" class="back-link">← Back to Food Categories</a>
+    <h1>Burgers</h1>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Our Burgers</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/hamburger.jpg" data-desc="Classic grilled beef burger with garnish.">
+          <img src="images/menu/hamburger.jpg" alt="Hamburger">
+          <p>Hamburger – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/bacon-burger.jpg" data-desc="Beef burger with crispy bacon.">
+          <img src="images/menu/bacon-burger.jpg" alt="Bacon Burger">
+          <p>Bacon Burger – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/double-king.jpg" data-desc="Double patty burger for big appetite.">
+          <img src="images/menu/double-king.jpg" alt="Double King Burger">
+          <p>Double King Burger – 790₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/cheese-burger.jpg" data-desc="Juicy beef burger with melted cheese.">
+          <img src="images/menu/cheese-burger.jpg" alt="Cheese Burger">
+          <p>Cheese Burger – 620₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/double-cheese.jpg" data-desc="Double patty with double cheese.">
+          <img src="images/menu/double-cheese.jpg" alt="Double Cheese Burger">
+          <p>Double Cheese Burger – 900₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chicken-burger.jpg" data-desc="Grilled chicken fillet burger.">
+          <img src="images/menu/chicken-burger.jpg" alt="Chicken Burger">
+          <p>Chicken Burger – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/elixir-burger.jpg" data-desc="Burger with spinach, ham, and cheese.">
+          <img src="images/menu/elixir-burger.jpg" alt="Elixir Burger">
+          <p>Elixir Burger – 650₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/hotdog.jpg" data-desc="Classic hot dog with ketchup and mustard.">
+          <img src="images/menu/hotdog.jpg" alt="Hot Dog">
+          <p>Hot Dog – 590₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" src="" alt="" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Elixir Hotel © 2010</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

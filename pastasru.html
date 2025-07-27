@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Макароны - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Вернуться к категориям еды</a>
+    <h1>Макароны</h1>
+    <select id="languageSelect">
+      <option value="pastas.html">English</option>
+      <option value="pastastr.html">Türkçe</option>
+      <option value="pastasru.html" selected>Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Наши макароны</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/spaghetti-napolitana.jpg" data-desc="Классические спагетти с томатным соусом.">
+          <img src="images/menu/spaghetti-napolitana.jpg" alt="Спагетти Наполитана">
+          <p>Спагетти Наполитана – 600₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-bolognese.jpg" data-desc="Спагетти с мясным соусом Болоньезе.">
+          <img src="images/menu/spaghetti-bolognese.jpg" alt="Спагетти Болоньезе">
+          <p>Спагетти Болоньезе – 730₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-pesto.jpg" data-desc="Спагетти с соусом песто.">
+          <img src="images/menu/spaghetti-pesto.jpg" alt="Спагетти Песто">
+          <p>Спагетти Песто – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-ala-turka.jpg" data-desc="Спагетти по-турецки.">
+          <img src="images/menu/spaghetti-ala-turka.jpg" alt="Спагетти Ала Турка">
+          <p>Спагетти Ала Турка – 620₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-salmon.jpg" data-desc="Спагетти с лососем.">
+          <img src="images/menu/spaghetti-salmon.jpg" alt="Спагетти с лососем">
+          <p>Спагетти с лососем – 850₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-seafood.jpg" data-desc="Спагетти с морепродуктами.">
+          <img src="images/menu/spaghetti-seafood.jpg" alt="Спагетти с морепродуктами">
+          <p>Спагетти с морепродуктами – 890₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/penne-arabiata.jpg" data-desc="Пенне с острым томатным соусом.">
+          <img src="images/menu/penne-arabiata.jpg" alt="Пенне Арабиата">
+          <p>Пенне Арабиата – 620₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/penne-pesto.jpg" data-desc="Пенне с соусом песто.">
+          <img src="images/menu/penne-pesto.jpg" alt="Пенне Песто">
+          <p>Пенне Песто – 640₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/manti.jpg" data-desc="Турецкие пельмени с йогуртом и соусом.">
+          <img src="images/menu/manti.jpg" alt="Манты">
+          <p>Манты – 680₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

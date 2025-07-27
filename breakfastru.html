@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Завтраки - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Вернуться к категориям еды</a>
+    <h1>Завтраки</h1>
+    <select id="languageSelect">
+      <option value="breakfast.html">English</option>
+      <option value="breakfasttr.html">Türkçe</option>
+      <option value="breakfastru.html" selected>Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Наши завтраки</h2>
+      <div class="menu-categories">
+        <div class="menu-item"
+             data-img="images/menu/turkish-breakfast.jpg"
+             data-desc="Традиционный турецкий завтрак: разные сыры, оливки, яйца и свежий хлеб.">
+          <img src="images/menu/turkish-breakfast.jpg" alt="Турецкий завтрак">
+          <p>Турецкий завтрак – 650₺</p>
+        </div>
+        <div class="menu-item"
+             data-img="images/menu/english-breakfast.jpg"
+             data-desc="Традиционный английский завтрак: яйца, сосиски, фасоль и тост.">
+          <img src="images/menu/english-breakfast.jpg" alt="Английский завтрак">
+          <p>Английский завтрак – 700₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" src="" alt="" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Elixir Hotel © 2010</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

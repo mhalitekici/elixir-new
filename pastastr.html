@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makarnalar - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodstr.html" class="back-link">← Yemek Kategorilerine Geri Dön</a>
+    <h1>Makarnalar</h1>
+    <select id="languageSelect">
+      <option value="pastas.html">English</option>
+      <option value="pastastr.html" selected>Türkçe</option>
+      <option value="pastasru.html">Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Makarnalarımız</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/spaghetti-napolitana.jpg" data-desc="Domates soslu klasik spagetti.">
+          <img src="images/menu/spaghetti-napolitana.jpg" alt="Spagetti Napolitana">
+          <p>Spagetti Napolitana – 600₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-bolognese.jpg" data-desc="Kıyma soslu spagetti.">
+          <img src="images/menu/spaghetti-bolognese.jpg" alt="Spagetti Bolonez">
+          <p>Spagetti Bolonez – 730₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-pesto.jpg" data-desc="Fesleğenli pesto soslu spagetti.">
+          <img src="images/menu/spaghetti-pesto.jpg" alt="Spagetti Pesto">
+          <p>Spagetti Pesto – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-ala-turka.jpg" data-desc="Türk usulü spagetti.">
+          <img src="images/menu/spaghetti-ala-turka.jpg" alt="Spagetti Ala Turka">
+          <p>Spagetti Ala Turka – 620₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-salmon.jpg" data-desc="Somonlu spagetti.">
+          <img src="images/menu/spaghetti-salmon.jpg" alt="Somonlu Spagetti">
+          <p>Somonlu Spagetti – 850₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/spaghetti-seafood.jpg" data-desc="Deniz ürünlü spagetti.">
+          <img src="images/menu/spaghetti-seafood.jpg" alt="Deniz Ürünlü Spagetti">
+          <p>Deniz Ürünlü Spagetti – 890₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/penne-arabiata.jpg" data-desc="Acılı domates soslu penne.">
+          <img src="images/menu/penne-arabiata.jpg" alt="Penne Arabiata">
+          <p>Penne Arabiata – 620₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/penne-pesto.jpg" data-desc="Pesto soslu penne.">
+          <img src="images/menu/penne-pesto.jpg" alt="Penne Pesto">
+          <p>Penne Pesto – 640₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/manti.jpg" data-desc="Yoğurtlu ve soslu geleneksel mantı.">
+          <img src="images/menu/manti.jpg" alt="Mantı">
+          <p>Mantı – 680₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

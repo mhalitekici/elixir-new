@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yan Yemekler - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodstr.html" class="back-link">← Yemek Kategorilerine Geri Dön</a>
+    <h1>Yan Yemekler</h1>
+    <select id="languageSelect">
+      <option value="side-dishes.html">English</option>
+      <option value="sidedishestr.html" selected>Türkçe</option>
+      <option value="sidedishesru.html">Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Yan Yemeklerimiz</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/french-fries.jpg" data-desc="Çıtır altın sarısı patates kızartması.">
+          <img src="images/menu/french-fries.jpg" alt="Patates Kızartması">
+          <p>Patates Kızartması – 320₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/garlic-bread.jpg" data-desc="Sarımsaklı tereyağlı ekmek.">
+          <img src="images/menu/garlic-bread.jpg" alt="Sarımsaklı Ekmek">
+          <p>Sarımsaklı Ekmek – 320₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/rice.jpg" data-desc="Haşlanmış pirinç pilavı.">
+          <img src="images/menu/rice.jpg" alt="Pirinç Pilavı">
+          <p>Pirinç Pilavı – 320₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

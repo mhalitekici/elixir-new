@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzalar - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodstr.html" class="back-link">← Yemek Kategorilerine Geri Dön</a>
+    <h1>Pizzalar</h1>
+    <select id="languageSelect">
+      <option value="pizzas.html">English</option>
+      <option value="pizzastr.html" selected>Türkçe</option>
+      <option value="pizzasru.html">Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Pizzalarımız</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/margherita.jpg" data-desc="Domates sosu, peynir ve kekik.">
+          <img src="images/menu/margherita.jpg" alt="Margarita">
+          <p>Margarita – 620₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/four-seasons.jpg" data-desc="Mevsim sebzeleri ve peynir.">
+          <img src="images/menu/four-seasons.jpg" alt="Dört Mevsim">
+          <p>Dört Mevsim – 650₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/cheese-pizza.jpg" data-desc="Çeşitli peynirlerden zengin bir karışım.">
+          <img src="images/menu/cheese-pizza.jpg" alt="Peynirli Pizza">
+          <p>Peynirli Pizza – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/sucuk-pizza.jpg" data-desc="Türk sucuklu pizza.">
+          <img src="images/menu/sucuk-pizza.jpg" alt="Sucuklu Pizza">
+          <p>Sucuklu Pizza – 650₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chicken-pizza.jpg" data-desc="Izgara tavuklu pizza.">
+          <img src="images/menu/chicken-pizza.jpg" alt="Tavuklu Pizza">
+          <p>Tavuklu Pizza – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/seafood-pizza.jpg" data-desc="Ton balığı, karides ve somon.">
+          <img src="images/menu/seafood-pizza.jpg" alt="Deniz Ürünlü Pizza">
+          <p>Deniz Ürünlü Pizza – 890₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/mushroom-pizza.jpg" data-desc="Taze mantarlı pizza.">
+          <img src="images/menu/mushroom-pizza.jpg" alt="Mantarlı Pizza">
+          <p>Mantarlı Pizza – 650₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/mixed-pizza.jpg" data-desc="Sucuk, jambon ve sebzeler.">
+          <img src="images/menu/mixed-pizza.jpg" alt="Karışık Pizza">
+          <p>Karışık Pizza – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/elixir-special.jpg" data-desc="Patlıcan ve peynirli özel tarif.">
+          <img src="images/menu/elixir-special.jpg" alt="Elixir Özel">
+          <p>Elixir Özel – 650₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/mediterranean-pizza.jpg" data-desc="Ton balığı, soğan, zeytin.">
+          <img src="images/menu/mediterranean-pizza.jpg" alt="Akdeniz Pizzası">
+          <p>Akdeniz Pizzası – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/smoked-meat-pizza.jpg" data-desc="Füme etli, maydanozlu pizza.">
+          <img src="images/menu/smoked-meat-pizza.jpg" alt="Füme Etli Pizza">
+          <p>Füme Etli Pizza – 740₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/village-pizza.jpg" data-desc="Keçi peyniri ve sebzeler.">
+          <img src="images/menu/village-pizza.jpg" alt="Köy Pizzası">
+          <p>Köy Pizzası – 650₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/tropical-pizza.jpg" data-desc="Ananas, jambon ve soğan.">
+          <img src="images/menu/tropical-pizza.jpg" alt="Tropikal Pizza">
+          <p>Tropikal Pizza – 740₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

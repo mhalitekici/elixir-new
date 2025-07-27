@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandviçler - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodstr.html" class="back-link">← Yemek Kategorilerine Geri Dön</a>
+    <h1>Sandviçler</h1>
+    <select id="languageSelect">
+      <option value="sandwiches.html">English</option>
+      <option value="sandwichestr.html" selected>Türkçe</option>
+      <option value="sandwichesru.html">Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Sandviçlerimiz</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/cheese-sandwich.jpg" data-desc="Taze ekmek içinde beyaz peynir veya kaşar.">
+          <img src="images/menu/cheese-sandwich.jpg" alt="Peynirli Sandviç">
+          <p>Peynirli Sandviç – 470₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/ham-cheese-sandwich.jpg" data-desc="Dana veya tavuk jambon ve peynir.">
+          <img src="images/menu/ham-cheese-sandwich.jpg" alt="Jambonlu Peynirli Sandviç">
+          <p>Jambonlu Peynirli Sandviç – 480₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/tuna-sandwich.jpg" data-desc="Ton balığı, mayonez ve yeşillikler.">
+          <img src="images/menu/tuna-sandwich.jpg" alt="Ton Balıklı Sandviç">
+          <p>Ton Balıklı Sandviç – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/shrimp-sandwich.jpg" data-desc="Karides ve mantar dolgulu sandviç.">
+          <img src="images/menu/shrimp-sandwich.jpg" alt="Karidesli Sandviç">
+          <p>Karidesli Sandviç – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/club-sandwich.jpg" data-desc="Üç katlı kulüp sandviç.">
+          <img src="images/menu/club-sandwich.jpg" alt="Kulüp Sandviç">
+          <p>Kulüp Sandviç – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/hot-chicken-sandwich.jpg" data-desc="Izgara tavuklu sıcak sandviç.">
+          <img src="images/menu/hot-chicken-sandwich.jpg" alt="Sıcak Tavuk Sandviç">
+          <p>Sıcak Tavuk Sandviç – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/hot-beef-sandwich.jpg" data-desc="Izgara etli sıcak sandviç.">
+          <img src="images/menu/hot-beef-sandwich.jpg" alt="Sıcak Et Sandviç">
+          <p>Sıcak Et Sandviç – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chicken-nuggets.jpg" data-desc="Altın rengi kızarmış nugget.">
+          <img src="images/menu/chicken-nuggets.jpg" alt="Tavuk Nugget">
+          <p>Tavuk Nugget – 590₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script
