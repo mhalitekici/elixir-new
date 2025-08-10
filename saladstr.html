@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salatalar - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodstr.html" class="back-link">← Yemek Kategorilerine Geri Dön</a>
+    <h1>Salatalar</h1>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Salatalarımız</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/feta-olive-salad.jpg" data-desc="Garsona Sorun">
+          <img src="images/menu/feta-olive-salad.jpg" alt="Beyaz Peynir & Zeytin Salatası">
+          <p>Beyaz Peynir & Zeytin Salatası – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/rocket-feta-apple.jpg" data-desc="Garsona Sorun">
+          <img src="images/menu/rocket-feta-apple.jpg" alt="Roka, Beyaz Peynir, Elma / Armut & Ceviz Salatası">
+          <p>Roka, Beyaz Peynir, Elma / Armut & Ceviz Salatası – 530₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/tuna-salad.jpg" data-desc="Garsona Sorun">
+          <img src="images/menu/tuna-salad.jpg" alt="Ton Balıklı Salata">
+          <p>Ton Balıklı Salata – 530₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chicken-salad.jpg" data-desc="Garsona Sorun">
+          <img src="images/menu/chicken-salad.jpg" alt="Tavuklu Salata">
+          <p>Tavuklu Salata – 520₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/salmon-salad.jpg" data-desc="Garsona Sorun">
+          <img src="images/menu/salmon-salad.jpg" alt="Somonlu Salata">
+          <p>Somonlu Salata – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chefs-salad.jpg" data-desc="Garsona Sorun">
+          <img src="images/menu/chefs-salad.jpg" alt="Şefin Salatası">
+          <p>Şefin Salatası – 590₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" src="" alt="" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Elixir Hotel © 2010</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

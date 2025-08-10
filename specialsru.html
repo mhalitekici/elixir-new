@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Наши специальные блюда - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Назад к категориям блюд</a>
+    <h1>Наши специальные блюда</h1>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Специальные блюда Elixir</h2>
+      <div class="menu-categories">
+
+        <!-- ЗАКУСКИ -->
+        <div class="menu-item" data-img="images/menu/mozzarella-capris.jpg" data-desc="Сыр моцарелла, черри, свежий базилик, соус песто">
+          <img src="images/menu/mozzarella-capris.jpg" alt="Моцарелла Каприс">
+          <p>Моцарелла Каприс – 520₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/bruschetta.jpg" data-desc="">
+          <img src="images/menu/bruschetta.jpg" alt="Брускетта">
+          <p>Брускетта – 490₺</p>
+        </div>
+
+        <!-- САЛАТЫ -->
+        <div class="menu-item" data-img="images/menu/elixir-salad.jpg" data-desc="Смешанный салат, сушеный инжир, сушеный абрикос, грецкий орех, пармезан, соус песто">
+          <img src="images/menu/elixir-salad.jpg" alt="Салат Elixir">
+          <p>Салат Elixir – 720₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/orange-persimmon-salad.jpg" data-desc="Дольки апельсина, хурма, грибы, апельсиновый винегрет">
+          <img src="images/menu/orange-persimmon-salad.jpg" alt="Салат с апельсином и хурмой">
+          <p>Салат с апельсином и хурмой – 790₺</p>
+        </div>
+
+        <!-- ПАСТА & ПИЦЦА -->
+        <div class="menu-item" data-img="images/menu/lasagna.jpg" data-desc="Соус болоньез, соус Морне, соус песто">
+          <img src="images/menu/lasagna.jpg" alt="Лазанья">
+          <p>Лазанья – 780₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/fettuccini-alfredo.jpg" data-desc="Соус Альфредо, пармезан, свежий базилик">
+          <img src="images/menu/fettuccini-alfredo.jpg" alt="Феттучини Альфредо">
+          <p>Феттучини Альфредо – 780₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/di-mare-pizza.jpg" data-desc="Кусочки говядины, лук, кукуруза, соус BBQ">
+          <img src="images/menu/di-mare-pizza.jpg" alt="Пицца Ди Маре">
+          <p>Пицца Ди Маре – 894₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/pork-pepperoni-pizza.jpg" data-desc="Томатный соус, свиной пепперони, свежий базилик">
+          <img src="images/menu/pork-pepperoni-pizza.jpg" alt="Пицца с пепперони (свинина)">
+          <p>Пицца с пепперони (свинина) – 894₺</p>
+        </div>
+
+        <!-- МЯСНЫЕ БЛЮДА -->
+        <div class="menu-item" data-img="images/menu/chicken-wings.jpg" data-desc="Подается с картофелем дольками и соусом свит-чили">
+          <img src="images/menu/chicken-wings.jpg" alt="Крылышки в сладко-остром соусе">
+          <p>Крылышки в сладко-остром соусе – 710₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/lamb-shank.jpg" data-desc="Молодой картофель, овощи на гриле, соус деми-глас">
+          <img src="images/menu/lamb-shank.jpg" alt="Голень ягненка">
+          <p>Голень ягненка – 1430₺</p>
+        </div>
+
+        <!-- ДЕСЕРТЫ -->
+        <div class="menu-item" data-img="images/menu/panna-cotta.jpg" data-desc="С ароматом апельсина и имбиря">
+          <img src="images/menu/panna-cotta.jpg" alt="Панна котта">
+          <p>Панна котта – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/creme-caramel.jpg" data-desc="Подается с дробленым фисташком">
+          <img src="images/menu/creme-caramel.jpg" alt="Крем-карамель">
+          <p>Крем-карамель – 490₺</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" src="" alt="" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Elixir Hotel © 2010</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

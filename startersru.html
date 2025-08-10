@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Закуски - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Назад к категориям блюд</a>
+    <h1>Закуски</h1>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Наши закуски</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/grilled-halloumi.jpg" data-desc="Жареный сыр халлуми">
+          <img src="images/menu/grilled-halloumi.jpg" alt="Жареный сыр халлуми">
+          <p>Жареный сыр халлуми – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/cold-meze.jpg" data-desc="Специальный набор турецких закусок">
+          <img src="images/menu/cold-meze.jpg" alt="Холодное ассорти мезе">
+          <p>Холодное ассорти мезе – 530₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/garlic-mushroom.jpg" data-desc="">
+          <img src="images/menu/garlic-mushroom.jpg" alt="Грибы с чесноком и сыром">
+          <p>Грибы с чесноком и сыром – 520₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/borek.jpg" data-desc="Слоеные пирожки из теста фило">
+          <img src="images/menu/borek.jpg" alt="Борек">
+          <p>Борек – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/sigara-borek.jpg" data-desc="Традиционные рулетики из теста фило с сыром">
+          <img src="images/menu/sigara-borek.jpg" alt="Сигара Борек">
+          <p>Сигара Борек – 420₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/shrimp-borek.jpg" data-desc="Тесто фило с начинкой из шпината и сыра">
+          <img src="images/menu/shrimp-borek.jpg" alt="Борек с креветками">
+          <p>Борек с креветками – 530₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/mushroom-borek.jpg" data-desc="Тесто фило с начинкой из грибов и сыра">
+          <img src="images/menu/mushroom-borek.jpg" alt="Борек с грибами">
+          <p>Борек с грибами – 530₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/mixed-borek.jpg" data-desc="Сырные рулетики, борек с грибами, борек со шпинатом, борек с креветками и пачанга борек с пастырмой (турецкая вяленая говядина) и сыром">
+          <img src="images/menu/mixed-borek.jpg" alt="Смешанное ассорти борек">
+          <p>Смешанное ассорти борек – 590₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" src="" alt="" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Elixir Hotel © 2010</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

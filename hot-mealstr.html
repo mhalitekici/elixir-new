@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sıcak Yemekler - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodstr.html" class="back-link">← Yemek Kategorilerine Geri Dön</a>
+    <h1>Sıcak Yemekler</h1>
+    <select id="languageSelect">
+      <option value="hot-meals.html">English</option>
+      <option value="hotmealstr.html" selected>Türkçe</option>
+      <option value="hotmealsru.html">Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Sıcak Yemeklerimiz</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/mucver.jpg" data-desc="Kabak mücveri, çıtır lezzet.">
+          <img src="images/menu/mucver.jpg" alt="Mücver">
+          <p>Mücver – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/hot-mixed-meze.jpg" data-desc="Karışık sıcak mezeler tabağı.">
+          <img src="images/menu/hot-mixed-meze.jpg" alt="Sıcak Karışık Meze">
+          <p>Sıcak Karışık Meze – 890₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chicken-wrap.jpg" data-desc="Tavuk şiş dürüm.">
+          <img src="images/menu/chicken-wrap.jpg" alt="Tavuk Şiş Dürüm">
+          <p>Tavuk Şiş Dürüm – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/beef-wrap.jpg" data-desc="Dana şiş dürüm.">
+          <img src="images/menu/beef-wrap.jpg" alt="Dana Şiş Dürüm">
+          <p>Dana Şiş Dürüm – 940₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/vegetable-wrap.jpg" data-desc="Sebzeli dürüm.">
+          <img src="images/menu/vegetable-wrap.jpg" alt="Sebzeli Dürüm">
+          <p>Sebzeli Dürüm – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/lamb-liver.jpg" data-desc="Izgara kuzu ciğeri.">
+          <img src="images/menu/lamb-liver.jpg" alt="Kuzu Ciğeri">
+          <p>Kuzu Ciğeri – 1290₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/shrimp-casserole.jpg" data-desc="Karides güveç.">
+          <img src="images/menu/shrimp-casserole.jpg" alt="Karides Güveç">
+          <p>Karides Güveç – 990₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/mixed-bar-plate.jpg" data-desc="Karışık bar tabağı.">
+          <img src="images/menu/mixed-bar-plate.jpg" alt="Karışık Bar Tabağı">
+          <p>Karışık Bar Tabağı – 790₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

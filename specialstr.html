@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Özel Menülerimiz - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodstr.html" class="back-link">← Yemek Kategorilerine Geri Dön</a>
+    <h1>Özel Menülerimiz</h1>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Elixir Özel Lezzetler</h2>
+      <div class="menu-categories">
+
+        <!-- BAŞLANGIÇLAR -->
+        <div class="menu-item" data-img="images/menu/mozzarella-capris.jpg" data-desc="Mozzarella peyniri, kiraz domates, taze fesleğen, pesto sos">
+          <img src="images/menu/mozzarella-capris.jpg" alt="Mozzarella Capris">
+          <p>Mozzarella Capris – 520₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/bruschetta.jpg" data-desc="">
+          <img src="images/menu/bruschetta.jpg" alt="Bruschetta">
+          <p>Bruschetta – 490₺</p>
+        </div>
+
+        <!-- SALATALAR -->
+        <div class="menu-item" data-img="images/menu/elixir-salad.jpg" data-desc="Karışık salata, kuru incir, kuru kayısı, ceviz, parmesan peyniri, pesto sos">
+          <img src="images/menu/elixir-salad.jpg" alt="Elixir Salata">
+          <p>Elixir Salata – 720₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/orange-persimmon-salad.jpg" data-desc="Portakal dilimleri, cennet hurması, mantar, portakal vinaigrette sos">
+          <img src="images/menu/orange-persimmon-salad.jpg" alt="Portakal & Cennet Hurması Salatası">
+          <p>Portakal & Cennet Hurması Salatası – 790₺</p>
+        </div>
+
+        <!-- MAKARNA & PİZZA -->
+        <div class="menu-item" data-img="images/menu/lasagna.jpg" data-desc="Bolonez sos, Mornay sos, pesto sos">
+          <img src="images/menu/lasagna.jpg" alt="Lazanya">
+          <p>Lazanya – 780₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/fettuccini-alfredo.jpg" data-desc="Alfredo sos, parmesan peyniri, taze fesleğen">
+          <img src="images/menu/fettuccini-alfredo.jpg" alt="Fettucini Alfredo">
+          <p>Fettucini Alfredo – 780₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/di-mare-pizza.jpg" data-desc="Dana dilimleri, soğan, mısır, BBQ sos">
+          <img src="images/menu/di-mare-pizza.jpg" alt="Di Mare Pizza">
+          <p>Di Mare Pizza – 894₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/pork-pepperoni-pizza.jpg" data-desc="Domates sos, domuz pepperoni, taze fesleğen">
+          <img src="images/menu/pork-pepperoni-pizza.jpg" alt="Domuz Pepperonili Pizza">
+          <p>Domuz Pepperonili Pizza – 894₺</p>
+        </div>
+
+        <!-- ET YEMEKLERİ -->
+        <div class="menu-item" data-img="images/menu/chicken-wings.jpg" data-desc="Patates dilimleri ve tatlı-acı sos ile servis edilir">
+          <img src="images/menu/chicken-wings.jpg" alt="Tatlı & Acı Tavuk Kanatları">
+          <p>Tatlı & Acı Tavuk Kanatları – 710₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/lamb-shank.jpg" data-desc="Bebek patates, ızgara sebzeler, demi-glace sos">
+          <img src="images/menu/lamb-shank.jpg" alt="Kuzu İncik">
+          <p>Kuzu İncik – 1430₺</p>
+        </div>
+
+        <!-- TATLILAR -->
+        <div class="menu-item" data-img="images/menu/panna-cotta.jpg" data-desc="Portakal ve zencefil aromalı">
+          <img src="images/menu/panna-cotta.jpg" alt="Panna Cotta">
+          <p>Panna Cotta – 490₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/creme-caramel.jpg" data-desc="Antep fıstığı parçaları ile servis edilir">
+          <img src="images/menu/creme-caramel.jpg" alt="Krem Karamel">
+          <p>Krem Karamel – 490₺</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" src="" alt="" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Elixir Hotel © 2010</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

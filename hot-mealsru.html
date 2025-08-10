@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Горячие блюда - Elixir Hotel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="foodsru.html" class="back-link">← Вернуться к категориям еды</a>
+    <h1>Горячие блюда</h1>
+    <select id="languageSelect">
+      <option value="hot-meals.html">English</option>
+      <option value="hotmealstr.html">Türkçe</option>
+      <option value="hotmealsru.html" selected>Русский</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="menu">
+      <h2>Наши горячие блюда</h2>
+      <div class="menu-categories">
+        <div class="menu-item" data-img="images/menu/mucver.jpg" data-desc="Кабачковые оладьи, хрустящие.">
+          <img src="images/menu/mucver.jpg" alt="Мюджвер">
+          <p>Мюджвер – 590₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/hot-mixed-meze.jpg" data-desc="Смешанные горячие мезе.">
+          <img src="images/menu/hot-mixed-meze.jpg" alt="Горячие мезе">
+          <p>Горячие мезе – 890₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/chicken-wrap.jpg" data-desc="Куриный шашлык в лаваше.">
+          <img src="images/menu/chicken-wrap.jpg" alt="Куриный ролл">
+          <p>Куриный ролл – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/beef-wrap.jpg" data-desc="Говяжий шашлык в лаваше.">
+          <img src="images/menu/beef-wrap.jpg" alt="Говяжий ролл">
+          <p>Говяжий ролл – 940₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/vegetable-wrap.jpg" data-desc="Овощной ролл.">
+          <img src="images/menu/vegetable-wrap.jpg" alt="Овощной ролл">
+          <p>Овощной ролл – 690₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/lamb-liver.jpg" data-desc="Жареная бараняя печень.">
+          <img src="images/menu/lamb-liver.jpg" alt="Баранья печень">
+          <p>Баранья печень – 1290₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/shrimp-casserole.jpg" data-desc="Креветки в глиняной посуде.">
+          <img src="images/menu/shrimp-casserole.jpg" alt="Креветки в горшочке">
+          <p>Креветки в горшочке – 990₺</p>
+        </div>
+        <div class="menu-item" data-img="images/menu/mixed-bar-plate.jpg" data-desc="Смешанная закуска из бара.">
+          <img src="images/menu/mixed-bar-plate.jpg" alt="Смешанная закуска">
+          <p>Смешанная закуска – 790₺</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="itemModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImg" class="modal-img">
+      <p id="modalDesc" class="modal-desc"></p>
+    </div>
+  </div>
+
+  <footer><p>Elixir Hotel © 2010</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
